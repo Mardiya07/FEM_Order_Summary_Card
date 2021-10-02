@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Mardiya07/FEM_Order_Summary_Card)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -66,7 +66,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Mardiya07](https://www.frontendmentor.io/profile/Mardiya07)
 - Twitter - [@Mardiy_a](https://www.twitter.com/Mardiy_a)
 - Hashnode - [@Mardiya](https://www.hashnode.com/Mardiya)
 
