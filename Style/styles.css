@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    /* border: 1px solid red; */
+}
+
+body{
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: c;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    margin: 10vh 10vw;
+    text-align: center;
+}
+.hero-img{
+    width: 100%;
+    height: auto;
+    border-radius: 2rem 2rem 0 0;
+}
+.content{
+    background-color: #fff;
+    padding: 5vh 5vw 3vh 5vw;
+    border-radius: 0 0 2rem 2rem;
+    width: 100%;
+}
+h1{
+    font-size: 2rem;
+    color: hsl(223, 47%, 23%);
+}
+.content__paragraph{
+    color:  hsl(224, 23%, 55%);
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+
+.content__packages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    width: 100%;
+    text-align-last: right;
+    padding: 1rem;
+    margin: 2rem 0;
+    
+}
+.plangroup{
+    display: flex;
+    
+    
+}
+.music-icon{
+    height: 3.5rem;
+    width:auto ;
+}
+.content__packages_details{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+  color: hsl(223, 47%, 23%);  
+  margin-left: 2rem;
+  font-size: 1.2rem;
+
+}
+.content__packages__payment , .content__packages__cancel{
+    padding: 1.2rem 2rem;
+    border-radius: 1rem;
+    margin: .5rem 0;
+    font-weight: bolder;
+}
+.content__packages__payment{
+    background-color:hsl(245, 75%, 52%);
+    color: #fff;
+    filter: drop-shadow(0 1rem .8rem hsl(225, 100%, 98%));
+   
+}
+.content__packages__cancel{
+    color: hsl(224, 23%, 55%);
+}
+.attribution {
+     font-size: 11px; text-align: center;
+     margin-top: 4rem;
+ }
+.attribution a { 
+        color: hsl(228, 45%, 44%); }
+
+        @media screen and (max-width:280px) { main{margin: 10vh 5vw;}}
+        @media screen and (min-width:500px) { main{ margin: 20vw; }}
+        @media screen and (min-width:600px) { main{
+             max-width: 350px; }}
+        /* @media screen and (min-width:1024px){ main{margin:20vh auto} } */
+        @media screen and (min-width:1200px){ main{
+             /* margin:20vh auto;  */
+            max-width: 400px;}  
+        .content{padding: 4rem 4rem 1.5rem 4rem;} }
+        
